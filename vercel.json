@@ -11,5 +11,10 @@
       "src": "/(.*)",
       "dest": "dist/server.js"
     }
+  ],
+  "includeFiles": [
+    "node_modules/.prisma/**",
+    "node_modules/@prisma/client/**",
+    "prisma/schema.prisma"
   ]
 }
